@@ -1,0 +1,11 @@
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.loaderp{
+    color: #c2bfb9;
+    font-weight: 500;
+}

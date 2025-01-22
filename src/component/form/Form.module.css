@@ -1,0 +1,37 @@
+.form, 
+.fiels {
+    display: flex ;
+    flex-direction:  column;
+    gap: 2rem;
+}
+.labelfiels{
+    font-family: 'Outfit',sans-serif;
+    color: var(--white);
+
+}
+
+form input[type="text"],
+form select{
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: transparent;
+    border: .3rem solid var(--white);
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 400;
+
+}
+
+.fiels ::placeholder{
+    color: var(--white);
+}
+.submit{
+    border: none;
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    background-color: var(--primary);
+    border-radius: 1rem;
+    color: var(--white);
+    cursor:pointer;
+}

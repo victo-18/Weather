@@ -1,0 +1,32 @@
+.weatherdetail {
+  background: var(--white);
+  border-radius: 1rem;
+  text-align: center;
+  color: black;
+  padding: 1rem;
+}
+.cityname {
+  margin-top: 0;
+  color: black;
+  font-weight: 600;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.current {
+  color: black;
+  font-size: 6rem;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.properties {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+.properties p {
+  font-weight: 900;
+}
+.properties span {
+  font-weight: 400;
+}
